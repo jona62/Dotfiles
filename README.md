@@ -21,11 +21,10 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 - kickstart-nvim
 git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 
-- zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
 - you-should-use
 git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
 
 - tmux-plugins
+tmux-plugins download plugins
+https://github.com/tmux-plugins/tpm/blob/master/docs/managing_plugins_via_cmd_line.md
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
